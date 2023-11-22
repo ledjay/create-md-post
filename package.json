@@ -1,11 +1,11 @@
 {
   "name": "@ledjay/create-md-post",
-  "version": "0.0.4",
+  "version": "0.0.41",
   "description": "🦄 WIP: a cli tool to create markdown blog posts files quickly",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/cli.git"
+    "url": "https://github.com/ledjay/create-md-post"
   },
   "bin": {
     "create-md-post": "index.js"
