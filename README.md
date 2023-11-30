@@ -1,4 +1,4 @@
-# Markdown Blog Post Creator 📝
+# 🤖 Markdown Blog Post Creator
 
 Welcome to the Markdown Blog Post Creator! This nifty npm package is your ultimate buddy in the world of blogging. Say goodbye to the hassle of formatting and structuring your blog posts manually – this tool does it all for you!
 
@@ -17,7 +17,7 @@ With just a simple command, this package generates Markdown files, perfectly tai
 Install the package via npm, and within moments, you'll be all set to craft engaging blog posts without the usual formatting headaches.
 
 ```bash
-npm install -g markdown-blog-creator
+npm i @ledjay/create-md-post
 ```
 
 Once it's installed let's create your first blog post
