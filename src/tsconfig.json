@@ -1,0 +1,26 @@
+// {
+//   "type": "module",
+//   "compilerOptions": {
+//     "strict": true,
+//     "target": "esnext",
+//     "module": "commonjs",
+//     "outDir": "../dist",
+//     "rootDir": "./",
+//     "moduleResolution": "node",
+//     "esModuleInterop": true
+//   },
+//   "include": ["main.ts"]
+// }
+{
+  "type": "module",
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "../dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": ["main.ts"]
+}
