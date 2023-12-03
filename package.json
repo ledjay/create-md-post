@@ -1,7 +1,7 @@
 {
   "name": "@ledjay/create-md-post",
   "version": "0.1.2",
-  "description": "🦄 WIP: a cli tool to create markdown blog posts files quickly",
+  "description": "🦄 A cli tool to create markdown blog posts files quickly",
   "main": "index.js",
   "type": "module",
   "repository": {
@@ -17,7 +17,21 @@
     "watch": "tsc  -p ./src --watch",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "mdx",
+    "md",
+    "cli",
+    "typescript",
+    "blog",
+    "next",
+    "nextjs",
+    "astro",
+    "nuxt",
+    "nuxtjs",
+    "blogging",
+    "markdown cli"
+  ],
   "author": "Jérémie Gisserot - Ledjay",
   "license": "ISC",
   "publishConfig": {
