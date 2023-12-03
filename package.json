@@ -1,6 +1,6 @@
 {
   "name": "@ledjay/create-md-post",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "🦄 WIP: a cli tool to create markdown blog posts files quickly",
   "main": "index.js",
   "type": "module",
