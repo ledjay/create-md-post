@@ -15,7 +15,7 @@
     "dev": "tsc  -p ./src --watch",
     "build": "tsc -p ./src",
     "watch": "tsc  -p ./src --watch",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md && git push && npm publish"
   },
   "keywords": [
     "markdown",
