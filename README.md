@@ -26,6 +26,15 @@ Once it's installed let's create your first blog post
 npx create-md-post
 ```
 
+On the first execution, you will be asked to configure your preferences.
+They will be stored inside your _.create-md-post-rc_
+
+To re-configure your preferences you can use --configure flag
+
+```bash
+npx create-md-post --configure
+```
+
 ## Why Choose This?
 
 Spend less time on formatting and more on your content. Let your creativity flow while this tool takes care of the Markdown file generation for you.
