@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "tsc  -p ./src --watch",
     "build": "tsc -p ./src",
-    "watch": "tsc  -p ./src --watch"
+    "watch": "tsc  -p ./src --watch",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "keywords": [],
   "author": "Jérémie Gisserot - Ledjay",
@@ -23,16 +24,21 @@
     "access": "public"
   },
   "dependencies": {
+    "@clack/prompts": "^0.7.0",
     "@inquirer/input": "^1.2.14",
     "@inquirer/password": "^0.0.27-alpha.0",
     "@types/node": "^20.9.4",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
     "fs": "^0.0.1-security",
     "inquirer": "^9.2.12",
+    "node-emoji": "^2.1.3",
     "path": "^0.12.7",
     "slugify": "^1.6.6",
     "yaml": "^2.3.4"
   },
   "devDependencies": {
+    "auto-changelog": "^2.4.0",
     "typescript": "^5.3.2"
   }
 }

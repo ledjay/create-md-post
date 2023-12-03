@@ -9,5 +9,5 @@ export default function writeConfigFile(configData: configFileType) {
 
   fs.writeFileSync(filePath, fileContent);
 
-  console.log("File done");
+  return "Your configuration file .crate-md-post-rc is set.\n Please run npx creata-md-post command again to create your first post";
 }
